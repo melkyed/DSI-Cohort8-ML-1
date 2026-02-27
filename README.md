@@ -35,3 +35,31 @@ Description
 The dataset is organized as a table with 17 variables and 45,211 records, mixing demographic, financial, and campaign related attributes. These include personal characteristics such as age, job, and marital status; financial indicators such as balance; and marketing interaction details such as duration of the last call, campaign contact count, and pdays, which often appears as –1 to indicate no previous contact. Many entries contain the placeholder “unknown,” especially in fields like education, contact, and poutcome, as seen in rows where job is “blue collar” or “admin.” and the contact method is listed as “unknown.”
 
 
+**3 Risks & Unknowns**
+
+- Class imbalance: this dataset is imbalanced with ony 12% in the class we are interested (subcribed customers)
+    - so accuracy can look good while the model is useless for identifying likely subscribers.
+    - We would recommend to use PR-AUC instead of raw accuracy.
+
+- Sampling / representativeness: Data is from a specific bank (portugalese), geography, and a specific time period.
+    - patterns may not generalize to other institutions or later years.(May 2018 to Nov 2010)
+    - dataset outdated, may not offfer best data set for the model to predict modern problems.
+
+- Data Leakage:
+    - duration column is measuring the length of the call, and this infoamtion is not available ahead of the call.
+    - hence should not be used for modelling.
+
+- Proxy and fairness concerns: 
+    - Variables like age, job, marital, education can act as proxies for protected characteristics or socioeconomic status—risking biased recommendations if used blindly.
+
+Scope:
+- we will need to work with stateholders to further clarify their business priorities. 
+- for example, is business more interested in maximizing profit or in lifting the acceptance rate.
+
+**5 Roles and Tasks:**
+
+| [Madina] | [Data Lead - Data Cleaning] 
+| [Ryan] | [Visualization/Storytelling Lead]
+| [Haichen] | [Modeling/EDA Lead/Visualization] 
+| [Mel] | [Modeling/EDA Lead] 
+| [Group effort] | [Reporting] 
