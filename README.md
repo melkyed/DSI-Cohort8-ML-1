@@ -118,4 +118,8 @@ Three models are evaluated — Logistic Regression (baseline), Random Forest, an
 
 pending links from group memebers.
 
+| Name | Link |
+|---|---|
+|Ryan|https://drive.google.com/file/d/1NmNPysmsFHVdeLVNpSlgY6hRp7LfQ3B-/view?usp=sharing|
+
 ---
