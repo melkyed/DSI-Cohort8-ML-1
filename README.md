@@ -114,13 +114,13 @@ Three models are evaluated — Logistic Regression (baseline), Random Forest, an
 | Melkamu Gishu | Modelling / EDA Lead | Model tuning, SHAP analysis, reporting |
 
 ---
-## 7. Self-reflection video:
-
-pending links from group memebers.
+## 7. Self-reflection video
 
 | Name | Link |
-|Melkamu|https://melkyed.github.io/projects.html|
-|Ryan|https://drive.google.com/file/d/1NmNPysmsFHVdeLVNpSlgY6hRp7LfQ3B-/view?usp=sharing|
-|Madina|https://youtu.be/I7yoRwFZJE0|
-|Haichen|https://youtu.be/-J2qvJ-mDMw| 
+|------|------|
+| Melkamu | https://melkyed.github.io/projects.html |
+| Ryan | https://drive.google.com/file/d/1NmNPysmsFHVdeLVNpSlgY6hRp7LfQ3B-/view?usp=sharing |
+| Madina | https://youtu.be/I7yoRwFZJE0 |
+| Haichen | https://youtu.be/-J2qvJ-mDMw |
+
 ---
