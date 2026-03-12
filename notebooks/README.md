@@ -1,34 +1,5 @@
 # Notebooks
 
-## Local Setup
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/melkyed/DSI-Cohort8-ML-1.git
-cd DSI-Cohort8-ML-1
-```
-
-**2. Create and activate a virtual environment**
-```bash
-uv venv ml-team1-env --python 3.11
-source ml-team1-env/bin/activate        # Mac/Linux
-venv\Scripts\activate           # Windows
-```
-
-**3. Install dependencies**
-```bash
-uv pip install -r requirements.txt
-```
-
-**4. Download the dataset**
-
-Download the Bank Marketing dataset from the [UCI ML Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing) and place the raw files in:
-```
-data/raw/
-```
-
----
-
 ## Git Workflow
 
 ```bash
